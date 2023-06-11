@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/20987f63d3.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- scroll reveal link-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>ScrollReveal({ reset: true });</script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="text-white">
+                                    <!-- navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark-subtle text-white py-3 fw-bold">
+        <div class="container-fluid">
+            <!-- logo ve ad -->
+            <a class="navbar-brand mx-4" href="#"> 
+                <img class="card-img-top img-thumbnail rounded-pill" src="img/logo.png" style="height: 70px; width: auto;" alt="Logo">
+                <b>İDeveloper\> </b>
+            </a>
+
+            <!-- collapse icon -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="qode_icon_font_awesome fa fa-bars "></i></span>
+            </button>
+
+            <!-- navbar items -->
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-5 px-2 py-3">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" href="#home">Anasayfa</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#aboutme">Hakkımda</a>
+                    </li>
+                    <li class="nav-item px-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#project" id="projectDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projelerim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectDropdown">
+                            <li><a class="dropdown-item" href="#">Translate App</a></li>
+                            <li><a class="dropdown-item" href="#">Modern Counter</a></li>
+                            <li><a class="dropdown-item" href="#">E-commerce App</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#contact">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+                                    <!-- home -->
+    <div class="animationShort mb-5">
+        <section id="home">
+            <div class="container mt-5 my-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-9 col-md-9 mt-5" style="margin-top: 10%;">
+                        <div class="container">
+                            <h2 class="specialh2 "><span style="color: #53f6c7;">&lt;b&gt;</span class="typing-animation">Hello<span style="color: #53f6c7;">&lt;/b&gt;</span><br>
+                                <span class="typing-animation" style="color: #53f6c7;">I’m İlknur,</span> <span class="typing-animation">Front-end</span><br><span class="typing-animation focus-ring-secondary">Web Developer</span><br><span class="typing-animation">and </span><br><span>Mobile Developer</span>
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3"  style="margin-top: 5%;">
+                        <img class="container-fluid me-2 animationNormal" src="img/ben.jpg" alt="">
+                    </div>
+                
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <br> <br>
+                                    <!-- aboutme -->
+    <div class="animationShort">
+        <section id="aboutme" class="mt-4 mb-5 "> 
+            <div class="b-skills">
+                <div class="container">
+                    <h1 class="sectionHeader display-1" style="text-align: center !important;"> &lt;Hakkımda \&gt;</h1>
+                    <h6 class="sectionHeader"> My Finest Skill</h6>
+                                     <!-- piechars -->
+                    <div class="row">
+                        
+                        <div class=" col-lg-3 col-md-6 mx-auto px-auto animationShort">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="80" data-bar-color="rgb(65, 244, 184)">
+                                        <span class="percent" data-after="%">80</span>
+                                    </div>
+                                </div>
+    
+                                <p>HTML5</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6 animationNormal">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="70" data-bar-color="#7856b4">
+                                        <span class="percent" data-after="%">70</span>
+                                    </div>
+                                </div>
+    
+                                <p>CSS3</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6 animationLong">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="50" data-bar-color="#629aed">
+                                        <span class="percent" data-after="%">50</span>
+                                    </div>
+                                </div>
+    
+                                <p>BOOSTRAP</p>
+                            </div>
+                        </div> 
+                        <div class="col-lg-3 col-md-6 animationLong">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="50" data-bar-color="#7856b4">
+                                        <span class="percent" data-after="%">50</span>
+                                    </div>
+                                </div>
+    
+                                <p>JAVASCRİPT</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 animationLong">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="50" data-bar-color="#629aed">
+                                        <span class="percent" data-after="%">50</span>
+                                    </div>
+                                </div>
+    
+                                <p>jQuery</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6 animationExtraLong">
+                            <div class="skill-item center-block">
+                                <div class="chart-container">
+                                    <div class="chart " data-percent="70" data-bar-color="#bb4f84">
+                                        <span class="percent" data-after="%">70</span>
+                                    </div>
+                                </div>
+    
+                                <p>FLUTTER</p>
+                            </div>
+                        </div>
+                    </div>
+                                     <!-- reviews -->
+                    <div class="row m-5"><div class="col-lg-12" style="text-align: left !important;"><h1 class="sectionHeader"> &lt; Reviews \&gt;</h1></div></div>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial_image_holder mb-4"><img class=" rounded-circle" src="https://fastly.picsum.photos/id/799/100/100.jpg?hmac=okZtkm2t55muc8YQ9GU-m6DeeJrYUBbM7RJp0h0qGHU" draggable="false"></div>
+                                <h5 class="aciklama opacity-50">Lorem ipsum adipisicing elit. Iste, dicta.</h5>
+                                <h3>Lorem İpsum</h3>
+                            </div>
+                
+                            <div class="carousel-item">
+                                <div class="testimonial_image_holder mb-4"><img class=" rounded-circle" src="https://fastly.picsum.photos/id/1044/100/100.jpg?hmac=IGzsuFyCgR4u_DgqnNlOHxY-ThKh9C02XhZAqHyVy0Q" draggable="false"></div>
+                                <h5 class="aciklama opacity-50">Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, consectetur. adipisicing elit. Iste, dicta. Lorem ipsum dolor sit amet.</h5>
+                                <h3>Lorem İpsum</h3>
+                            </div>
+                
+                            <div class="carousel-item">
+                                <div class="testimonial_image_holder mb-4"><img class=" rounded-circle" src="https://fastly.picsum.photos/id/74/100/100.jpg?hmac=hdHqMndTN7L5F180xg_cfJX8psrMoGWl1gbqAwfIAAU" draggable="false"></div>
+                                <h5 class="aciklama opacity-50">Loremsit amet consectetur adipisicing elit. Iste, dicta.</h5>
+                                <h3>Lorem İpsum</h3>
+                            </div>
+                
+                            <div class="carousel-item">
+                                <div class="testimonial_image_holder mb-4"><img class=" rounded-circle" src="https://fastly.picsum.photos/id/770/100/100.jpg?hmac=JvwGaqemiztTlBrTR_6mJawvTuugVVH0HV13sXH0BFk" draggable="false"></div>
+                                <h5 class="aciklama opacity-50">Lorem ipsum dolor, sit  elit. Iste, dicta.</h5>
+                                <h3>Lorem İpsum</h3>
+                            </div>
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Önceki</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Sonraki</span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div><hr>
+                                    <!-- project -->
+    <div class="animationShort">
+        <section id="project">
+            <div class="container">
+                <div class="row">
+                    <h1 class="sectionHeader display-2" style="text-align: left !important;"> &lt; / Projelerim \&gt;</h1> 
+                </div>
+            </div>
+            <div class="container m-auto p-lg-5">
+                <div class="row m-auto"  style="box-sizing: border-box !important;">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 m-3">
+                  
+                      <div class="card " onclick="toggleBox(1)" style="width: 18rem;">
+                        <div class="card-body">
+                          <div class="testimonial_image_holder mb-4 "><img class=" rounded-0" src="https://fastly.picsum.photos/id/799/100/100.jpg?hmac=okZtkm2t55muc8YQ9GU-m6DeeJrYUBbM7RJp0h0qGHU" draggable="false"></div>  
+                          <h5 class="card-title">BTWlate Translate</h5>
+                          <h6 class="card-subtitle mb-2 "style="color: #adb5bd!important;">Flutter App</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="https://github.com/ilknurdondurma/BTWlate-Translate" class="card-link d-none">Go To Source Code</a>
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 m-3">
+                      
+                      <div class="card" onclick="toggleBox(2)" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="testimonial_image_holder mb-4"><img class=" rounded-0" src="https://fastly.picsum.photos/id/1044/100/100.jpg?hmac=IGzsuFyCgR4u_DgqnNlOHxY-ThKh9C02XhZAqHyVy0Q" draggable="false"></div>  
+                          <h5 class="card-title">Modern Counter</h5>
+                          <h6 class="card-subtitle mb-2 "style="color: #adb5bd!important;">Flutter App</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="https://github.com/ilknurdondurma/modern_flutter_counter" class="card-link d-none">Go To Source Code</a>
+                         
+                        </div>
+                        
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 m-3">
+                      
+                      <div class="card" onclick="toggleBox(3)" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="testimonial_image_holder mb-4 "><img class=" rounded-0" src="https://fastly.picsum.photos/id/74/100/100.jpg?hmac=hdHqMndTN7L5F180xg_cfJX8psrMoGWl1gbqAwfIAAU" draggable="false"></div>  
+                          <h5 class="card-title">Mobil E-Commerce</h5>
+                          <h6 class="card-subtitle mb-2 " style="color: #adb5bd!important;">Flutter App</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="https://github.com/ilknurdondurma/Mobil-e-commerce" class="card-link d-none">Go To Source Code</a>
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 m-3">
+                     
+                      <div class="card" onclick="toggleBox(4)" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="testimonial_image_holder mb-4 "><img class=" rounded-0" src="https://fastly.picsum.photos/id/770/100/100.jpg?hmac=JvwGaqemiztTlBrTR_6mJawvTuugVVH0HV13sXH0BFk" draggable="false"></div>  
+                          <h5 class="card-title">İOS Calculator</h5>
+                          <h6 class="card-subtitle mb-2 "style="color: #adb5bd!important;">Swift App</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="https://github.com/ilknurdondurma/iosCalculatorr/tree/master/proje1" class="card-link d-none">Go To Source Code</a>
+                         
+                        </div>
+                        
+                      </div>
+                    </div>
+              
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 m-3">
+                      
+                      <div class="card" onclick="toggleBox(5)" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="testimonial_image_holder mb-4 "><img class=" rounded-0" src="https://fastly.picsum.photos/id/799/100/100.jpg?hmac=okZtkm2t55muc8YQ9GU-m6DeeJrYUBbM7RJp0h0qGHU" draggable="false"></div>  
+                          <h5 class="card-title">Personal Resume Web site</h5>
+                          <h6 class="card-subtitle mb-2 "style="color: #adb5bd!important;">Web project</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link d-none">Go To Source Code</a>
+                        
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </div>
+    <hr>
+                                            <!-- contact -->
+    <div class="animationShort">
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <h1 class="sectionHeader display-1" style="text-align: left !important;"> &lt; / contact me \&gt;</h1> 
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 d-flex flex-column justify-content-center align-content-center align-items-start">
+                        <h1><div class="">Hire Me <br> For The <br> Next Projects</div></h1><br>
+                        <h4><div>In mattis tincidunt quam non fermentum. Fusce fermentum massa tortor, ineuismod mauris placerat quis. Integer porta porte nume lorem nisi, quis ultricies nisi imperdiet vitae. Fusce fermentum massa tortor
+                        </div></h4>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name Surname">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                          </div>
+                          <div class="mb-3">
+                           <div class="btn btn-outline-success" style="border-color: #53f6c7; color: #53f6c7;"> Gönder </div>
+                          </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+<br><br><br>
+    <section id="contact">
+        <footer class="border">
+            <div class="container d-flex flex-row justify-content-center">
+                <div class="m-auto">
+                    <div class="col-lg-12">
+                        <p>© Copyright <a href="#" style="color: #53f6c7;" class="p-3">IOcode</a></p>
+                        <p class="">Follow Me on Social:  
+                        <a href="https://www.instagram.com/ilknrddma"><i class="qode_icon_font_awesome fa fa-instagram  simple_social px-2" style="color: #ffffff;font-size: 20px;color: #ffffff;"></i></a>
+                            <a href="https://facebook.com"><i class="qode_icon_font_awesome fa fa-facebook  simple_social px-2" style="color: #ffffff;font-size: 20px;color: #ffffff;"></i></a>
+                            <a href="https://www.linkedin.com/in/ilknur-dondurma/" class="px-2"><i class="qode_icon_font_awesome fa fa-linkedin  simple_social" style="color: #ffffff;font-size: 20px;"></i></a><br>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+                    <!-- scrolreveable için animasyon sureleri -->
+    <script>
+        ScrollReveal().reveal('.animationShort', { delay: 500 });
+        ScrollReveal().reveal('.animationNormal', { delay: 700 });
+        ScrollReveal().reveal('.animationLong', { delay: 1000 });
+        ScrollReveal().reveal('.animationExtraLong', { delay: 1500 });
+    </script>
+
+    <script src="activeControl.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="jquery/jquery-2.2.4.min.js"></script>
+    <script src="jquery/jquery.appear.min.js"></script>
+    <script src="jquery/jquery.easypiechart.min.js"></script> 
+    <script>
+    'use strict';
+
+    var $window = $(window);
+
+    function run()
+    {
+    var fName = arguments[0],
+        aArgs = Array.prototype.slice.call(arguments, 1);
+    try {
+        fName.apply(window, aArgs);
+    } catch(err) {
+        
+    }
+    };
+
+    function _chart ()
+    {
+    $('.b-skills').appear(function() {
+        setTimeout(function() {
+            $('.chart').easyPieChart({
+                easing: 'easeOutElastic',
+                delay: 3000,
+                barColor: '#369670',
+                trackColor: '#fff',
+                scaleColor: false,
+                lineWidth: 21,
+                trackWidth: 21,
+                size: 250,
+                lineCap: 'round',
+                onStep: function(from, to, percent) {
+                    this.el.children[0].innerHTML = Math.round(percent);
+                }
+            });
+        }, 150);
+    });
+    };
+    $(document).ready(function() {
+
+    run(_chart);
+
+
+    });
+
+
+
+    </script>
+</body>
+</html>
