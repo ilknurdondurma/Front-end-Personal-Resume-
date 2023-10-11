@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       document.addEventListener('DOMContentLoaded', function() {
-          var elements = document.getElementsByClassName('typing-animation');
+          var elements = document.getElementsByClassName('.typing-animation');
           for (var i = 0; i < elements.length; i++) {
               var text = elements[i].innerHTML;
               elements[i].innerHTML = '';
@@ -145,7 +145,7 @@ function toggleBox(boxNumber) {
 
 /* sayfa ilk acıldıgında 3cu projeyi aktif classına alma fonsksiyonu */
 window.addEventListener('DOMContentLoaded', function() {
-  var boxes = document.getElementsByClassName("card");
+  var boxes = document.getElementsByClassName(".card");
   var targetBox = boxes[2];
   var imageHolder = targetBox.querySelector(".testimonial_image_holder");
   var linkHolder = targetBox.querySelector(".card-link");
@@ -197,3 +197,34 @@ function isValidEmail(email) {
   const emailRegex = /\S+@\S+\.\S+/;
   return emailRegex.test(email);
 }
+
+
+//************************************email  */
+
+  function sendEmail() {
+    var name = document.querySelector("#exampleFormControlInput1").value;
+    var email = document.querySelector("#exampleFormControlInput2").value;
+    var message = document.querySelector("#exampleFormControlTextarea1").value;
+
+    var data = {
+      name: name,
+      email: email,
+      message: message
+    };
+
+    // AJAX post request
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "send_email.php", true);
+    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // Gönderme başarılı olduğunda yapılacak işlemler
+        alert("E-posta başarıyla gönderildi.");
+      }
+    };
+    xhr.send(JSON.stringify(data));
+  }
+
+  // Gönder düğmesine tıklanınca sendEmail fonksiyonunu çağır
+  var sendButton = document.querySelector("#sendButton");
+  sendButton.addEventListener("click", sendEmail);
